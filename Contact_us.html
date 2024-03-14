@@ -1,0 +1,169 @@
+<html>
+<head>
+  <title>Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <style>
+    body {
+      background-image: url('Images/color.jpg');
+      background-size: cover;
+      background-position: center;
+	  background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+    } 
+	.name {
+	text-align: center;
+	font-family: "Brush Script MT", cursive;
+	color: #F99506;
+	font-size: 40px;
+}
+.name1 {
+	text-align: left;
+	font-family: "Brush Script MT", cursive;
+	color: #F99506;
+	font-size: 40px;
+}
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    } 
+    .contact-info h2 {
+      font-size: 24px;
+    } 
+    .contact-info p {
+      margin-bottom: 10px;
+    } 
+    .contact-info i {
+      margin-right: 10px;
+    } 
+	.contact-info {
+      width: 50%;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }      
+    .contact-form {
+      width: 50%;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    .contact-form input[type="text"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }   
+    .contact-form textarea {
+      height: 100px;
+    }    
+    .contact-form input[type="submit"] {
+      background-color: #F99506;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    } 
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }     
+      .contact-info,
+      .contact-form {
+        width: 100%;
+      }
+    }
+.follow-us {
+  display: flex;
+  align-items: center;
+  color: #F99506;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.follow-us i {
+  font-size: 25px;
+}
+.address, .email, .phone, .name2 {
+    color: #F99506;
+}
+.button-container a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+</style>
+</head>
+<body>
+<nav>
+    <div class="button-container">
+        <a href="Restaurant.html">Home</a>
+    </div>
+</nav>
+  <div class="container">
+    <div class="contact-info">
+<div style="display: flex; justify-content: flex-begin;">
+</div>
+<h2 class="name1">Contact Information</h2>
+<div class="name2">
+  <i style="font-size:24px"></i> Name
+</div>
+Aishwarya Munusamy
+<div class="name">
+  <i style="font-size:24px"></i>
+</div>
+Sravanthi Reddy Bommineni
+<div class="address">
+  <i class="fa fa-map-marker" style="font-size:24px"></i> Address
+</div>
+123 Main Street, Nashua, USA
+<div class="phone">
+<i class="fa fa-phone-square" style="font-size:24px"></i>Phone Number 
+</div>
++1 234 567 890
+<div class="email">
+<i class="fa fa-envelope-square" style="font-size:36px"></i>Email ID 
+</div>
+contactus@gmail.com 
+ <p>If you have any queries, feedback, feel free to reach out to us.</p>
+<div class="follow-us">
+  <span>Follow Us</span>
+  <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+  <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+</div>
+    </div>
+    <div class="contact-form">
+      <h2 class="name">Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="text" placeholder="Your Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+  </div>
+</body>
+</html>

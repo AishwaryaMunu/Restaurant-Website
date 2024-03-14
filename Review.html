@@ -1,0 +1,123 @@
+<html>
+<head>
+  <title>Review Questions</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+	background-image: url('Images/color.jpg');
+	background-size: cover;
+	
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+/* Add this CSS code to your existing stylesheet */
+
+.container {
+  width: 80%; /* Set a maximum width for better readability */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.question1 {
+  width: 100%; /* Adjust the width to fill the container */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.question1 h2 {
+  font-size: 24px;
+}
+
+.question1 p {
+  margin-bottom: 10px;
+}
+
+.question1 i {
+  margin-right: 10px;
+}
+
+.question {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #F99506;
+}
+
+.submit-btn {
+  text-align: center; /* Center the submit button */
+}
+
+.submit-btn input[type="submit"] {
+  background-color: #F99506;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container a {
+  text-decoration: none;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<header>
+        <nav>
+            <div class="button-container">
+                <a href="Restaurant.html">Home</a>
+            </div>
+        </nav>
+    </header>
+	<div class="container">
+	<div class="question1">
+  <h2 class="question">Review Questions</h2>
+    <div class="question">
+      <p>1: How was the quality of the food?</p>
+      <label for="rating">Rating (1-5):</label>
+  <input type="number" id="rating" name="rating" min="1" max="5" required>
+    </div>
+    <div class="question">
+      <p>2: How was the cleanliness and hygiene of the restaurant?</p>
+      <label for="rating">Rating (1-5):</label>
+	  <input type="number" id="rating" name="rating" min="1" max="5" required>
+    </div>
+	<div class="question">
+      <p>3: How would you rate the ambiance and atmosphere of the restaurant?</p>
+      <label for="rating">Rating (1-5):</label>
+	  <input type="number" id="rating" name="rating" min="1" max="5" required>
+    </div>
+	<div class="question">
+      <p>4: Were the prices reasonable for the quality of food and service provided?</p>
+      <label for="rating">Rating (1-5):</label>
+	  <input type="number" id="rating" name="rating" min="1" max="5" required>
+    </div>
+	<div class="question">
+      <p>5: How would you rate the overall dining experience at the restaurant?</p>
+      <label for="rating">Rating (1-5):</label>
+	  <input type="number" id="rating" name="rating" min="1" max="5" required>
+    </div>
+	<div class="question">
+	<p>6: Is there anything the restaurant could improve upon?</p>
+	<form>
+        <textarea placeholder="Message" required></textarea>
+      </form>
+	</div>
+    <div class="submit-btn">
+      <input type="submit" value="Submit">
+    </div>
+	</div>
+	</div>
+  </form>
+</body>
+</html>
